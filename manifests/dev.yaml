@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: docker.io/boon11/my-nginx-json:1 
+          image: docker.io/boon11/my-nginx-json:2
           env:
             - name: MESSAGE
               value: "Hello from app1 !"
